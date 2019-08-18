@@ -1,0 +1,115 @@
+body{
+ 
+    padding-top: 20px;
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1502741126161-b048400d085d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80'); 
+    background-size: cover;
+    padding-bottom: 20px;
+  }
+  
+  
+  .jumbotron {
+    font-family: 'Bangers', cursive;
+    box-shadow: 0 25px 8px -8px black;
+    background-color: oldlace;
+    padding:  10px;
+    border: 5px solid darkorange;
+	border-radius: 25px;
+    text-align: center;   
+  }
+  
+  p {
+    font-family: 'Raleway';
+    font-weight: 200;
+  }
+  
+   #imageContainer img{
+  border: 6px solid white;
+  transition: transform .2s;
+  height: auto;
+  max-width: 25%;
+  border: 2px solid grey;
+  border-radius: 3%; 
+  margin: 1.5em;
+  position: relative;
+  margin: auto;
+  height: 30vh;
+  width: 30vw;
+  box-shadow: 0 25px 8px -8px black;
+  border-radius: 15px;
+  background-image: cover;
+  background-color: oldlace;
+  padding:  10px;
+  border: 5px solid darkorange;
+} 
+  
+  
+  #imageContainer img:hover{
+    transform: scale(1.16);
+    -webkit-transform: scale(1.16);
+    -ms-transform: scale(1.16);
+  }  
+  
+  
+  button[onclick] {
+    font-family: 'Raleway', cursive;
+    float: center;
+    font-size: 2em;
+    box-shadow: 0 25px 8px -8px black;
+    border-radius: 15px;
+    background-image: cover;
+    background-color: oldlace;
+    padding:  10px;
+    border: 5px solid darkorange;
+    }
+  
+  button:hover, button:focus{
+    transform: scale(1.12);
+    background: powderblue;
+  }
+  
+  div {
+    text-align: center;
+  }
+  
+  h4, span, #selectTracker { 
+    box-shadow: 0 25px 8px -8px black;
+    border-radius: 15px;
+    background-image: cover;
+    background-color: oldlace;
+    padding:  10px;
+    border: 5px solid darkorange;
+    font-size: 1.5em;
+    font-family: 'Kalam';
+    line-height: 1.65em;
+    border-radius: 8px;
+    width: 25%;
+    margin: 20px auto 50px;
+  }
+  
+ #busChart {
+   width: 25vw;
+   height: 50px;
+   float: center;
+   list-style: none;
+   box-shadow: 0 25px 8px -8px black;
+   border-radius: 15px;
+   background-image: cover;
+   background-color: oldlace;
+   padding:  10px;
+   border: 5px solid darkorange;
+   margin: auto;
+   margin-bottom: 125px;
+}
+#busChart {
+	text-align: center;
+	font-size: 1.5em;
+    font-family: 'Kalam';
+    line-height: 1.65em;
+}
+.chart-container {
+  position: relative;
+  margin: auto;
+  height: 25vh;
+  width: 25vw;
+}
